@@ -1,2 +1,16 @@
 server:
-  port: 8088
+  port: 8080
+
+Spring:
+  data:
+    elasticsearch:
+      cluster-ip: 127.0.0.1
+      cluster-port: 9200
+      scheme: https
+
+person:
+  name: 郑有为
+  age: 24
+  isBoss: true
+
+
