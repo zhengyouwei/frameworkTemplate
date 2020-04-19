@@ -1,5 +1,11 @@
 server:
   port: 8080
+  servlet:
+    context-path: /zyw
+  tomcat:
+    uri-encoding: utf-8
+
+
 
 Spring:
   data:
@@ -9,7 +15,7 @@ Spring:
       scheme: https
 
 person:
-  name: 郑有为
+  name: 郑有为11
   age: 24
   isBoss: true
 
